@@ -1,0 +1,125 @@
+2026-05-27T18:22:37Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-05-27T18:22:37Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-05-27T18:22:42Z INF +--------------------------------------------------------------------------------------------+
+2026-05-27T18:22:42Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-05-27T18:22:42Z INF |  https://lucy-bosnia-cooperation-acrylic.trycloudflare.com                                 |
+2026-05-27T18:22:42Z INF +--------------------------------------------------------------------------------------------+
+2026-05-27T18:22:42Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp]
+2026-05-27T18:22:42Z INF Version 2025.8.1 (Checksum b5d598b00cc3a28cabc5812d9f762819334614bae452db4e7f23eefe7b081556)
+2026-05-27T18:22:42Z INF GOOS: windows, GOVersion: go1.24.2, GoArch: amd64
+2026-05-27T18:22:42Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:3000]
+2026-05-27T18:22:42Z INF cloudflared will not automatically update on Windows systems.
+2026-05-27T18:22:42Z INF Generated Connector ID: 33e6e7fe-8ac1-4d6d-b6fe-964c04ee3289
+2026-05-27T18:22:42Z INF Initial protocol quic
+2026-05-27T18:22:42Z INF ICMP proxy will use 192.168.1.81 as source for IPv4
+2026-05-27T18:22:42Z INF ICMP proxy will use 2804:3480:872f:a800:7c29:be94:ec6:22fe in zone Ethernet as source for IPv6
+2026-05-27T18:22:42Z ERR Cannot determine default origin certificate path. No file cert.pem in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp]. You need to specify the origin certificate path by specifying the origincert option in the configuration file, or set TUNNEL_ORIGIN_CERT environment variable originCertPath=
+2026-05-27T18:22:42Z INF cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool
+2026-05-27T18:22:42Z INF ICMP proxy will use 192.168.1.81 as source for IPv4
+2026-05-27T18:22:42Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.43
+2026-05-27T18:22:42Z INF ICMP proxy will use 2804:3480:872f:a800:7c29:be94:ec6:22fe in zone Ethernet as source for IPv6
+2026-05-27T18:22:42Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-05-27T18:22:43Z INF Registered tunnel connection connIndex=0 connection=03940bf6-6da1-445c-ba68-540b76f18ca2 event=0 ip=198.41.200.43 location=gru21 protocol=quic
+2026-05-27T18:23:45Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:45Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:47Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:47Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:48Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:48Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:49Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:49Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:51Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:51Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:52Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:52Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=04hjMJvY5_xQg8LXTp7pb event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:56Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:56Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=6LswCqqLDhXJDtkH_2WYn event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:57Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:57Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=6LswCqqLDhXJDtkH_2WYn event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:23:58Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:23:58Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=6LswCqqLDhXJDtkH_2WYn event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:24:00Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:24:00Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=6LswCqqLDhXJDtkH_2WYn event=0 ip=198.41.200.43 type=ws
+2026-05-27T18:24:02Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3000
+2026-05-27T18:24:02Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: net/http: HTTP/1.x transport connection broken: malformed HTTP response \"Unauthorized\"" connIndex=0 dest=https://lucy-bosnia-cooperation-acrylic.trycloudflare.com/_next/webpack-hmr?id=6LswCqqLDhXJDtkH_2WYn event=0 ip=198.41.200.43 type=ws
+2026-05-28T18:22:43Z WRN Your version 2025.8.1 is outdated. We recommend upgrading it to 2026.5.2
+2026-05-29T15:14:36Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:36Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:36Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:36Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:36Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:42Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:42Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T15:14:45Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:14:46Z INF Registered tunnel connection connIndex=0 connection=3e88c71e-5c11-45ba-b5d8-a2482f14a4d5 event=0 ip=198.41.200.73 location=gru21 protocol=quic
+2026-05-29T15:54:57Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:54:57Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:54:57Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:54:57Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:54:57Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:54:57Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T15:55:01Z INF Registered tunnel connection connIndex=0 connection=08c011b0-0520-4579-a2a5-7c987fdd0192 event=0 ip=198.41.200.73 location=gru21 protocol=quic
+2026-05-29T16:35:05Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T16:35:05Z INF Registered tunnel connection connIndex=0 connection=a05bdec3-7dd3-4566-a700-88077a098a5b event=0 ip=198.41.200.73 location=gru21 protocol=quic
+2026-05-29T17:19:07Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:07Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:07Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:07Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:07Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:08Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:13Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:13Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:13Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T17:19:18Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T17:19:18Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.43
+2026-05-29T17:19:18Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:23Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:23Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.73
+2026-05-29T17:19:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:19:38Z INF Registered tunnel connection connIndex=0 connection=707bf31d-6b52-47f7-a829-bf59657ce1dc event=0 ip=198.41.200.13 location=gru17 protocol=quic
+2026-05-29T17:20:09Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:09Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:09Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:09Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:09Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:15Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:15Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.13
+2026-05-29T17:20:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-05-29T17:20:18Z INF Registered tunnel connection connIndex=0 connection=4b41def7-19aa-4068-8dd3-437cafbbd49e event=0 ip=198.41.192.67 location=for01 protocol=quic
+2026-05-29T18:22:43Z WRN Your version 2025.8.1 is outdated. We recommend upgrading it to 2026.5.2
+2026-05-30T18:22:43Z WRN Your version 2025.8.1 is outdated. We recommend upgrading it to 2026.5.2
+2026-05-31T18:22:43Z WRN Your version 2025.8.1 is outdated. We recommend upgrading it to 2026.5.2
+2026-05-31T22:07:49Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:49Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:49Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:49Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:49Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:50Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-05-31T22:07:51Z INF Registered tunnel connection connIndex=0 connection=036a7164-2b4c-41be-8d77-ea797b0b2a7f event=0 ip=198.41.192.67 location=for01 protocol=quic
+2026-06-01T18:22:43Z WRN Your version 2025.8.1 is outdated. We recommend upgrading it to 2026.5.2
+2026-06-01T18:26:00Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: write udp [::]:60728->198.41.192.67:7844: wsasendto: Uma operação de soquete foi tentada em um host inacessível." connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:00Z ERR failed to run the datagram handler error="write udp [::]:60728->198.41.192.67:7844: wsasendto: Uma operação de soquete foi tentada em um host inacessível." connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:00Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:00Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:00Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:01Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:01Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: write udp [::]:60728->198.41.192.67:7844: wsasendto: Uma operação de soquete foi tentada em um host inacessível." connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:01Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.67
+2026-06-01T18:26:04Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-06-01T18:26:05Z INF Registered tunnel connection connIndex=0 connection=ba192952-9701-40fe-aa53-1b376e94a58d event=0 ip=198.41.200.13 location=gru17 protocol=quic
+2026-06-01T19:30:18Z INF Initiating graceful shutdown due to signal terminated ...
+2026-06-01T19:30:18Z ERR failed to run the datagram handler error="Application error 0x0 (remote)" connIndex=0 event=0 ip=198.41.200.13
+2026-06-01T19:30:18Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-06-01T19:30:18Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-06-01T19:30:18Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.13
+2026-06-01T19:30:18Z ERR Connection terminated connIndex=0
+2026-06-01T19:30:18Z ERR no more connections active and exiting
+2026-06-01T19:30:18Z INF Metrics server stopped
+2026-06-01T19:30:18Z INF Tunnel server stopped
