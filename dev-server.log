@@ -1,0 +1,14 @@
+
+> nitrolux@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.17:3000
+✓ Ready in 488ms
+Creating turbopack project { dir: 'D:\\Site\\nitrolux', testMode: true }
+- Experiments (use with caution):
+  · optimizePackageImports
+
+ GET / 200 in 607ms (next.js: 256ms, application-code: 352ms)
+ GET / 200 in 84ms (next.js: 5ms, application-code: 79ms)
