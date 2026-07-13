@@ -11,3 +11,4 @@ Creating turbopack project { dir: 'D:\\Site\\nitrolux', testMode: true }
   · optimizePackageImports
 
  GET / 200 in 607ms (next.js: 256ms, application-code: 352ms)
+ GET / 200 in 84ms (next.js: 5ms, application-code: 79ms)
